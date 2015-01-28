@@ -24,5 +24,8 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func enter() {
+        userIsTyping = false
+        
+    }
 }
-
