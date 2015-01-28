@@ -77,11 +77,8 @@
 		F90C91D31A76818400195BDA /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				F90C91D61A76818400195BDA /* AppDelegate.swift */,
 				F90C91D81A76818400195BDA /* ViewController.swift */,
 				F90C91DA1A76818400195BDA /* Main.storyboard */,
-				F90C91DD1A76818400195BDA /* Images.xcassets */,
-				F90C91DF1A76818400195BDA /* LaunchScreen.xib */,
 				F90C91D41A76818400195BDA /* Supporting Files */,
 			);
 			path = Calculator;
@@ -90,6 +87,9 @@
 		F90C91D41A76818400195BDA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F90C91D61A76818400195BDA /* AppDelegate.swift */,
+				F90C91DF1A76818400195BDA /* LaunchScreen.xib */,
+				F90C91DD1A76818400195BDA /* Images.xcassets */,
 				F90C91D51A76818400195BDA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -407,6 +407,7 @@
 				F90C91F21A76818400195BDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F90C91F31A76818400195BDA /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +416,7 @@
 				F90C91F51A76818400195BDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
